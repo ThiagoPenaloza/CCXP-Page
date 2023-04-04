@@ -1,0 +1,127 @@
+#nav {
+    padding: 0px;
+}
+
+nav div {
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 120px;
+
+}
+
+
+#logo {
+    position: relative;
+    inset: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    justify-content: space-between;
+}
+
+#left {
+    background-color: #514988;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#h1 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F3C61F;
+    padding-top: 2vh;
+    margin: 0;
+}
+
+#h2 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+#h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 60vh;
+    color: #FFFFFF;
+}
+
+#rosa {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #E33881;
+}
+
+.timer {
+    display: flex;
+    width: 175px;
+    margin-top: 20px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    line-height: 85px;
+    align-items: center;
+    text-align: center;
+    color: #514988;
+}
+
+.timer>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer h1 {
+    margin: 0;
+    font-size: 85px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.timer p {
+    margin: 0;
+    font-size: 85px;
+    padding-right: 30px;
+    padding-left: 0px;
+}
