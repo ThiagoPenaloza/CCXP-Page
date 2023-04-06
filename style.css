@@ -79,7 +79,7 @@ main {
 
 .timer {
     display: flex;
-    margin-top: 1vw;
+    padding-top: 1vh;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
