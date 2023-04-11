@@ -358,6 +358,11 @@ main {
         overflow-x: scroll;
         white-space: nowrap;
         padding-left: 20rem;
+        scrollbar-width: none;
+    }
+    
+    #images::-webkit-scrollbar {
+        display: none;
     }
 
     #images img {
